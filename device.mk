@@ -43,6 +43,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.project.rc
