@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/plato
+DEVICE_PATH := device/xiaomi/rubens
 
 # Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 560
 
 # Kernel Modules
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/modules.load.vendor_boot))
@@ -27,4 +27,4 @@ VENDOR_SECURITY_PATCH := 2024-08-01
 include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 
 # Inherit the proprietary files
-include vendor/xiaomi/plato/BoardConfigVendor.mk
+include vendor/xiaomi/rubens/BoardConfigVendor.mk

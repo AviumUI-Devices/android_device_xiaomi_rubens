@@ -1,4 +1,4 @@
-# Unpinned blobs from plato-user 14 UP1A.230905.011 V816.0.11.0.ULQMIXM release-keys
+# Unpinned blobs from rubens-user 14 UP1A.230905.011 V816.0.10.0.ULNCNXM release-keys
 
 # Audio
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
@@ -28,16 +28,14 @@ vendor/etc/audio_param/VoWEngineFeature_AudioParam.xml
 vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml
 vendor/etc/misound_res_headphone.bin
 vendor/etc/misound_res_spk.bin
-vendor/firmware/cs35l41-delta-rcv-handsfree.txt
-vendor/firmware/cs35l41-delta-rcv-music.txt
-vendor/firmware/cs35l41-delta-spk-handsfree.txt
-vendor/firmware/cs35l41-delta-spk-music.txt
-vendor/firmware/cs35l41-dsp1-spk-cali.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
-vendor/firmware/RCV-cs35l41-dsp1-spk-cali.bin
-vendor/firmware/RCV-cs35l41-dsp1-spk-prot.bin
-vendor/firmware/SPK-cs35l41-dsp1-spk-cali.bin
-vendor/firmware/SPK-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/tfa98xx.cnt
+vendor/etc/smartpa_param/tfa98xx_device.bin
+vendor/etc/smartpa_param/tfa98xx_ringtone.bin
+vendor/etc/smartpa_param/tfa98xx_voice.bin
+vendor/etc/audio_param/tfa98xx_music.bin
+vendor/etc/audio_param/tfa98xx_ringtone.bin
+vendor/etc/audio_param/tfa98xx_voice.bin
+
 
 # Batterysecret
 vendor/bin/batterysecret
@@ -59,35 +57,30 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6895/ParameterDB_tone.db;SY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6895/ISP_info.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platogc02m1_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platogc02m1_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platogc02m1_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platogc02m1_mipi_raw/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platoimx596_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platoimx596_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platoimx596_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platoimx596_mipi_raw/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5k4h7_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5k4h7_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5k4h7_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5k4h7_mipi_raw/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw_2/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw_2/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw_2/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw_2/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw_3/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw_3/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw_3/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw_3/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/platos5khm6_mipi_raw/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/ISP_param.db
 vendor/bin/hw/mt6895/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
 vendor/etc/camera/ai_scene.bin
 vendor/etc/camera/anc.bin
 vendor/etc/camera/apu_miai_preview.bin
-vendor/etc/camera/CameraCPUControl.xml
-vendor/etc/camera/CFR_para_UW.bin
-vendor/etc/camera/com.xiaomi.dcal.wu.as2.golden
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/deblur_sd_opencl_binary.bin
 vendor/etc/camera/deblur_sd_opencl_params.bin
 vendor/etc/camera/deblur_txt_apu.bin
 vendor/etc/camera/F1_pink.cng
 vendor/etc/camera/gma_custom.xml:vendor/etc/camera/gma_custom.txt;SYMLINK=vendor/etc/camera/gma_custom.xml
-vendor/etc/camera/ldc/AI_Seg.bin
-vendor/etc/camera/ldc/LDC_FPC_TUNING_AI.bin
-vendor/etc/camera/ldc/LDC_FPC_TUNING.bin
-vendor/etc/camera/ldc/LDC_PACKDATA.dat
+vendor/etc/camera/ldc/intsense_config_undistort.bin
+vendor/etc/camera/ldc/ldc_cap_cache
+vendor/etc/camera/ldc/ldc_cap_model
+vendor/etc/camera/ldc/ldc_cap_policy
 vendor/etc/camera/miai_psn_config.yaml
 vendor/etc/camera/mibokeh_mt6873_opencl.bin
 vendor/etc/camera/mibokeh_mt6873_parameter.bin
@@ -140,21 +133,12 @@ vendor/lib64/libai_sdr2hdr_auth.so
 vendor/lib64/libai_sdr2hdr.so
 vendor/lib64/libaispq.so
 vendor/lib64/libAITrackingAFMgr.so
-vendor/lib64/libalAI_Seg.so
-vendor/lib64/libalAILDC.so
 vendor/lib64/libalCFR.so
-vendor/lib64/libalhLDC.so
-vendor/lib64/libalLDC.so
-vendor/lib64/libalNN_engine.so
-vendor/lib64/libalNN_gpu.so
-vendor/lib64/libalNN.so
 vendor/lib64/libanc_calibration_parser.so
 vendor/lib64/libanc_supervq.so
 vendor/lib64/libArcNetMtk.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_distortion_correction.so
-vendor/lib64/libarcsoft_dualcam_refocus_image.so
-vendor/lib64/libarcsoft_dualcam_refocus_video.so
 vendor/lib64/libarcsoft_hdr_detection.so
 vendor/lib64/libarcsoft_high_dynamic_range_v5.so
 vendor/lib64/libarcsoft_low_light_hdr.so
@@ -488,20 +472,17 @@ vendor/lib64/mt6895/libpda_usdriver.so;SYMLINK=vendor/lib64/libpda_usdriver.so
 vendor/lib64/mt6895/libSonyIMX519PdafWrapper.so;SYMLINK=vendor/lib64/libSonyIMX519PdafWrapper.so
 vendor/lib64/mt6895/libstereoinfoaccessor_vsdof.so;SYMLINK=vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/mt6895/libvainr_model.so;SYMLINK=vendor/lib64/libvainr_model.so
-vendor/lib64/mt6895/mtk000_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/mtk000_mipi_raw_tuning.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_tuning.so
-vendor/lib64/mt6895/platogc02m1_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/platogc02m1_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/platogc02m1_mipi_raw_tuning.so;SYMLINK=vendor/lib64/platogc02m1_mipi_raw_tuning.so
-vendor/lib64/mt6895/platoimx596_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/platoimx596_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/platoimx596_mipi_raw_tuning.so;SYMLINK=vendor/lib64/platoimx596_mipi_raw_tuning.so
-vendor/lib64/mt6895/platos5k4h7_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/platos5k4h7_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/platos5k4h7_mipi_raw_tuning.so;SYMLINK=vendor/lib64/platos5k4h7_mipi_raw_tuning.so
-vendor/lib64/mt6895/platos5khm6_mipi_raw_2_IdxMgr.so;SYMLINK=vendor/lib64/platos5khm6_mipi_raw_2_IdxMgr.so
-vendor/lib64/mt6895/platos5khm6_mipi_raw_2_tuning.so;SYMLINK=vendor/lib64/platos5khm6_mipi_raw_2_tuning.so
-vendor/lib64/mt6895/platos5khm6_mipi_raw_3_IdxMgr.so;SYMLINK=vendor/lib64/platos5khm6_mipi_raw_3_IdxMgr.so
-vendor/lib64/mt6895/platos5khm6_mipi_raw_3_tuning.so;SYMLINK=vendor/lib64/platos5khm6_mipi_raw_3_tuning.so
-vendor/lib64/mt6895/platos5khm6_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/platos5khm6_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/platos5khm6_mipi_raw_tuning.so;SYMLINK=vendor/lib64/platos5khm6_mipi_raw_tuning.so
+vendor/lib64/mt6895/mtk000_mipi_raw_tuning.so:vendor/lib64/mtk000_mipi_raw_tuning.so
+vendor/lib64/mt6895/rubensgc02m1_mipi_raw_IdxMgr.so:vendor/lib64/rubensgc02m1_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/rubensgc02m1_mipi_raw_tuning.so:vendor/lib64/rubensgc02m1_mipi_raw_tuning.so
+vendor/lib64/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so:vendor/lib64/rubensimx582_mipi_raw_2_IdxMgr.so
+vendor/lib64/mt6895/rubensimx582_mipi_raw_2_tuning.so:vendor/lib64/rubensimx582_mipi_raw_2_tuning.so
+vendor/lib64/mt6895/rubensimx582_mipi_raw_IdxMgr.so:vendor/lib64/rubensimx582_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/rubensimx582_mipi_raw_tuning.so:vendor/lib64/rubensimx582_mipi_raw_tuning.so
+vendor/lib64/mt6895/rubensimx596_mipi_raw_IdxMgr.so:vendor/lib64/rubensimx596_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/rubensimx596_mipi_raw_tuning.so:vendor/lib64/rubensimx596_mipi_raw_tuning.so
+vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_IdxMgr.so:vendor/lib64/rubenss5k4h7_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_tuning.so:vendor/lib64/rubenss5k4h7_mipi_raw_tuning.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -514,14 +495,16 @@ vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
 # Display
-vendor/etc/cust_color_36.xml
-vendor/etc/cust_color_42.xml
 vendor/etc/cust_color.xml
 vendor/etc/cust_silky_brightness.xml
+vendor/etc/dsi_l11a_38_0a_0a_dsc_cmd_mi.xml
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
+vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
+vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
 
 # NFC
 vendor/etc/libnfc-nci.conf
@@ -555,14 +538,9 @@ vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.
 # Thermal
 vendor/bin/mi_thermald
 vendor/etc/thermal-4k.conf
-vendor/etc/thermal-8k.conf
-vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
 vendor/etc/thermal-class0.conf
-vendor/etc/thermal-dolbyvision.conf
-vendor/etc/thermal-hp-mgame.conf
-vendor/etc/thermal-hp-normal.conf
 vendor/etc/thermal-huanji.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-mgame.conf
@@ -582,17 +560,11 @@ vendor/etc/thermal-videochat.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
 
-# Touch
-vendor/firmware/goodix_cfg_group_l12a.bin
-vendor/firmware/goodix_cfg_group_l12a_new.bin
-vendor/firmware/goodix_firmware_l12a.bin
-vendor/firmware/goodix_firmware_l12a_new.bin
-vendor/firmware/goodix_test_limits_1_255.csv
-vendor/firmware/goodix_test_limits_255.csv
+
 
 # Vibrator
 vendor/firmware/aw8697_haptic.bin
+vendor/firmware/aw8697_rtp_1.bin
 
 # Wi-Fi
 vendor/firmware/wifi.cfg
-vendor/firmware/txpowerctrl.cfg

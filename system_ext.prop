@@ -1,5 +1,5 @@
 # Camera
-ro.product.mod_device=plato_global
+ro.product.mod_device=rubens
 
 # Fingerprint
 persist.vendor.sys.fp.udfps.location.X_Y=496,2330
