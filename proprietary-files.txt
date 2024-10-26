@@ -567,7 +567,10 @@ vendor/etc/sn100u_pnx_pcv.pnscr
 vendor/etc/sn100u_pnx_sst.pnscr
 
 # Sensors
+vendor/etc/elliptic_sensor.xml
+vendor/lib64/hw/sensors.elliptic@2.0.so
 vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.so
+vendor/lib64/libnotifyaudiohal.so
 
 # Thermal
 vendor/bin/mi_thermald
