@@ -177,9 +177,7 @@ vendor/lib64/libcamalgo.WarpMapResizer.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcameraplatforminfoxiaomi.so
 vendor/lib64/libceres.so
-vendor/lib64/libjpeg-alpha_vendor.so
-vendor/lib64/libjpeg-alpha-oal_vendor.so
-vendor/lib64/libJpgEncPipe.so 
+
 vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libdeflicker.so
 vendor/lib64/libfeature.hdr10.so
@@ -220,11 +218,11 @@ vendor/lib64/libvidhance_ldc.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvidhance_super_stabilization.so
 vendor/lib64/libvidhance.so
-vendor/lib64/libjpeg-alpha_vendor.so
-vendor/lib64/libjpeg-alpha-oal_vendor.so
+
 vendor/lib64/libremosaiclib.so
 vendor/lib64/librgbwlightsensor.so 
-vendor/lib64/libJpgEncPipe.so
+vendor/lib64/libwa_depth.so
+vendor/lib64/libwa_refocus.so
 vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
 vendor/lib64/libvpu.so
@@ -570,7 +568,7 @@ vendor/etc/sn100u_pnx_sst.pnscr
 vendor/etc/elliptic_sensor.xml
 vendor/lib64/hw/sensors.elliptic@2.0.so
 vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.so
-vendor/lib64/libnotifyaudiohal.so
+vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 
 # Thermal
 vendor/bin/mi_thermald
