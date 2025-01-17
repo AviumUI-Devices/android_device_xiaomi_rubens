@@ -41,32 +41,32 @@ vendor/etc/audio_param/tfa98xx_voice.bin
 vendor/bin/batterysecret
 
 # Camera
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6895/ParameterDB_ae.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6895/ParameterDB_af.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6895/ParameterDB_awb.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6895/ParameterDB_awbsync.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6895/ParameterDB_feature.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6895/ParameterDB_flash.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6895/ParameterDB_flashcali.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/ParameterDB.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/port_select.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/top_control_data.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6895/ParameterDB_pd.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6895/ParameterDB_pipeline.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6895/ParameterDB_tone.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6895/ParameterDB_ae.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6895/ParameterDB_af.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6895/ParameterDB_awb.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6895/ParameterDB_awbsync.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6895/ParameterDB_feature.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6895/ParameterDB_flash.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6895/ParameterDB_flashcali.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/ParameterDB.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/port_select.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/top_control_data.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6895/ParameterDB_pd.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6895/ParameterDB_pipeline.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6895/ParameterDB_tone.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6895/ISP_info.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6895/ISP_info.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/ISP_param.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY
 vendor/bin/hw/mt6895/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
 vendor/etc/camera/ai_scene.bin
 vendor/etc/camera/anc.bin
@@ -178,6 +178,8 @@ vendor/lib64/libcamera_scene.so
 vendor/lib64/libcameraplatforminfoxiaomi.so
 vendor/lib64/libceres.so
 
+vendor/lib64/libjpeg-alpha-oal_vendor.so
+vendor/lib64/libJpgEncPipe.so 
 vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libdeflicker.so
 vendor/lib64/libfeature.hdr10.so
@@ -218,11 +220,10 @@ vendor/lib64/libvidhance_ldc.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvidhance_super_stabilization.so
 vendor/lib64/libvidhance.so
-
+vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/librgbwlightsensor.so 
-vendor/lib64/libwa_depth.so
-vendor/lib64/libwa_refocus.so
+
 vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
 vendor/lib64/libvpu.so
@@ -231,12 +232,10 @@ vendor/lib64/libwa_rtdof.so
 vendor/lib64/libwa_rtrefocus.so
 vendor/lib64/mt6895/libcamalgo.util1.so:vendor/lib64/libcamalgo.util1.so
 vendor/lib64/mt6895/libcamalgo.util2.so:vendor/lib64/libcamalgo.util2.so
-vendor/lib64/mt6895/libgamehdr.so:vendor/lib64/libgamehdr.so
+
 vendor/lib64/mt6895/libgpudataproducer.so:vendor/lib64/libgpudataproducer.so 
 vendor/lib64/mt6895/libacdk.so:vendor/lib64/libacdk.so 
 
-vendor/lib64/vendor.mediatek.hardware.power@1.1.so
-vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib64/mt6895/lib_bsscore.so;SYMLINK=vendor/lib64/lib_bsscore.so
 vendor/lib64/mt6895/lib3a.ae.core.so;SYMLINK=vendor/lib64/lib3a.ae.core.so
 vendor/lib64/mt6895/libmdla_ut.so:vendor/lib64/libmdla_ut.so
@@ -531,12 +530,47 @@ vendor/etc/cust_color.xml
 vendor/etc/cust_silky_brightness.xml
 vendor/etc/dsi_l11a_38_0a_0a_dsc_cmd_mi.xml
 
+# DRM
+vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libtlcWidevineModularDrm.so
+vendor/lib64/liburee_meta_drmkeyinstall.so
+vendor/lib64/libwvkeybox.so
+
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
+
+# Fido
+vendor/bin/fidoca_isee
+vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc
+vendor/lib64/libmfido_isee.so
+
+# Gatekeeper
+vendor/lib64/hw/gatekeeper.beanpod.so
+
+# Keymint
+vendor/bin/hw/android.hardware.security.keymint@1.0-service.beanpod
+vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service.beanpod.xml
+vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.beanpod.xml
+vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.beanpod.xml
+
+# Mlipay
+vendor/bin/mlipayd_isee@1.1
+vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc
+vendor/lib64/libmlipay_isee@1.1.so
+vendor/lib64/libmlipay_isee.so
+
+# Mtdservice
+vendor/bin/mtd_isee@1.3
+vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc
+vendor/lib64/libmt_isee@1.3.so
+vendor/lib64/libmt_isee.so
 
 # NFC
 vendor/etc/libnfc-nci.conf
@@ -563,6 +597,14 @@ vendor/etc/sn100u_pnx_ese_sn.pnscr
 vendor/etc/sn100u_pnx_ndi.pnscr
 vendor/etc/sn100u_pnx_pcv.pnscr
 vendor/etc/sn100u_pnx_sst.pnscr
+
+# Secure Element
+vendor/bin/hw/vendor.microtrust.hardware.se@1.0-service
+vendor/etc/init/vendor.microtrust.hardware.se@1.0-service.rc
+vendor/lib64/se_nq_extn_client-v1.so
+vendor/lib64/ls_nq_client-v1.so
+vendor/lib64/jcos_nq_client-v1.so
+vendor/lib64/secure_element-impl.so
 
 # Sensors
 vendor/etc/elliptic_sensor.xml
@@ -600,7 +642,51 @@ vendor/app/MipayService/MipayService.apk
 
 # Soter (Tencent)
 vendor/app/SoterService/SoterService.apk
+vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
+vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
+vendor/etc/vintf/manifest/manifest_wechat.xml
+vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
 
+# Trusted Execution Environment (TEE)
+vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
+vendor/bin/teei_daemon
+vendor/etc/init/microtrust.rc
+vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc
+vendor/etc/vintf/manifest/manifest.microtrust.xml
+vendor/lib64/libTEECommon.so
+vendor/lib64/libgz_gp_client.so
+vendor/lib64/libgz_uree.so
+vendor/lib64/libimsg_log.so
+vendor/lib64/libteeclientjni_isee.so
+vendor/lib64/libteeclientjni_isee@1.1.so
+vendor/lib64/libteei_daemon_vfs.so
+vendor/lib64/libthha.so
+vendor/lib64/libthhclient.so
+vendor/lib64/vendor.microtrust.hardware.thh@2.0.so
+vendor/lib64/wechat.beanpod.so
+vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta
+vendor/thh/ta/020f0000000000000000000000000000.ta
+vendor/thh/ta/06090000000000000000000000000000.ta
+vendor/thh/ta/08010203000000000000000000000000.ta
+vendor/thh/ta/08030000000000000000000000000000.ta
+vendor/thh/ta/08110000000000000000000000000000.ta
+vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta
+vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta
+vendor/thh/ta/40188311faf343488db888ad39496f9a.ta
+vendor/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta
+vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
+vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
+vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
+vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
+vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
+vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
+vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
+vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
+vendor/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta
+vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/8aaaf201246000007143fe4f7c823c80.ta
+vendor/thh/ta/isee_model.json
 
 # Vibrator
 vendor/firmware/aw8697_haptic.bin
