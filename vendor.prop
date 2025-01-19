@@ -30,6 +30,11 @@ vendor.camera.mdp.cz.enable=1
 vendor.camera.mdp.dre.enable=1
 vendor.mtk.camera.app.fd.video=1
 
+# Fingerprint
+persist.vendor.fingerprint.type=side
+persist.vendor.fingerprint.sensor_modules=fpc,goodix
+persist.vendor.fingerprint.sensor_location=1440|1300|115|local:4627039422300187648
+
 # SurfaceFlinger
 persist.sys.sf.color_mode=9
 persist.sys.sf.color_saturation=1.0
