@@ -219,11 +219,12 @@ vendor/lib64/libvidhance_super_stabilization.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/librgbwlightsensor.so 
-
 vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
 vendor/lib64/libvpu.so
 vendor/lib64/libvpu5.so
+vendor/lib64/libwa_depth.so
+vendor/lib64/libwa_refocus.so
 vendor/lib64/libwa_rtdof.so
 vendor/lib64/libwa_rtrefocus.so
 vendor/lib64/mt6895/libcamalgo.util1.so:vendor/lib64/libcamalgo.util1.so
@@ -548,14 +549,6 @@ vendor/etc/cust_silky_brightness.xml
 vendor/etc/dsi_l11a_38_0a_0a_dsc_cmd_mi.xml;SYMLINK=vendor/etc/dsi_m11r_38_0a_0a_dsc_cmd_mi.xml
 vendor/etc/init/rubens_display.rc;SYMLINK=vendor/etc/init/rembrandt_display.rc
 
-# DRM
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib64/liboemcrypto.so
-vendor/lib64/libtlcWidevineModularDrm.so
-vendor/lib64/liburee_meta_drmkeyinstall.so
-vendor/lib64/libwvkeybox.so
-
-
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME
@@ -563,34 +556,7 @@ vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
 
-# Fido
-vendor/bin/fidoca_isee
-vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc
-vendor/lib64/libmfido_isee.so
-
-# Gatekeeper
-vendor/lib64/hw/gatekeeper.beanpod.so
-
-# Keymint
-vendor/bin/hw/android.hardware.security.keymint@1.0-service.beanpod
-vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc
-vendor/etc/vintf/manifest/android.hardware.security.keymint-service.beanpod.xml
-vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.beanpod.xml
-vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.beanpod.xml
-
-# Mlipay
-vendor/bin/mlipayd_isee@1.1
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc
-vendor/lib64/libmlipay_isee@1.1.so
-vendor/lib64/libmlipay_isee.so
-
-# Mtdservice
-vendor/bin/mtd_isee@1.3
-vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc
-vendor/lib64/libmt_isee@1.3.so
-vendor/lib64/libmt_isee.so
-
-# NFC
+# NFC Configs
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-nxp-pnscr.conf
@@ -616,21 +582,13 @@ vendor/etc/sn100u_pnx_ndi.pnscr
 vendor/etc/sn100u_pnx_pcv.pnscr
 vendor/etc/sn100u_pnx_sst.pnscr
 
-# Secure Element
-vendor/bin/hw/vendor.microtrust.hardware.se@1.0-service
-vendor/etc/init/vendor.microtrust.hardware.se@1.0-service.rc
-vendor/lib64/se_nq_extn_client-v1.so
-vendor/lib64/ls_nq_client-v1.so
-vendor/lib64/jcos_nq_client-v1.so
-vendor/lib64/secure_element-impl.so
-
 # Sensors
 vendor/etc/elliptic_sensor.xml
 vendor/lib64/hw/sensors.elliptic@2.0.so
 vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.so
 vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 
-# Thermal
+# Thermal (Xiaomi)
 vendor/bin/mi_thermald
 vendor/etc/thermal-4k.conf
 vendor/etc/thermal-camera.conf
@@ -655,33 +613,8 @@ vendor/etc/thermal-videochat.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
 
-# Payment Apps
-vendor/app/MipayService/MipayService.apk
-
-# Soter (Tencent)
-vendor/app/SoterService/SoterService.apk
-vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
-vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
-vendor/etc/vintf/manifest/manifest_wechat.xml
-vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
 
 # Trusted Execution Environment (TEE)
-vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
-vendor/bin/teei_daemon
-vendor/etc/init/microtrust.rc
-vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc
-vendor/etc/vintf/manifest/manifest.microtrust.xml
-vendor/lib64/libTEECommon.so
-vendor/lib64/libgz_gp_client.so
-vendor/lib64/libgz_uree.so
-vendor/lib64/libimsg_log.so
-vendor/lib64/libteeclientjni_isee.so
-vendor/lib64/libteeclientjni_isee@1.1.so
-vendor/lib64/libteei_daemon_vfs.so
-vendor/lib64/libthha.so
-vendor/lib64/libthhclient.so
-vendor/lib64/vendor.microtrust.hardware.thh@2.0.so
-vendor/lib64/wechat.beanpod.so
 vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta
 vendor/thh/ta/020f0000000000000000000000000000.ta
 vendor/thh/ta/06090000000000000000000000000000.ta
