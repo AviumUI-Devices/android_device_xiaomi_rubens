@@ -27,5 +27,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="rubens-user 14 UP1A.231005.007 V816.0.14.0.ULNCNXM release-keys" \
     BuildFingerprint=Xiaomi/rubens/rubens:14/UP1A.231005.007/V816.0.14.0.ULNCNXM:user/release-keys \
 
-
-
+# AviumUI Sepcitific Stuff.
+include device/xiaomi/rubens/avium_common.mk
