@@ -30,22 +30,16 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResOverlay \
+    NfcOverlayRembrandt \
+    NfcOverlayRubens \
     SettingsProviderOverlay \
+    SettingsProviderOverlayRembrandt \
+    SettingsProviderOverlayRubens \
     SettingsResOverlay \
     SystemUIOverlay \
-    WifiResOverlay
-
-ifeq ($(TARGET_DEVICE), rembrandt)
-PRODUCT_PACKAGES += \
-    NfcOverlayRembrandt \
-    SettingsProviderOverlayRembrandt \
-    WifiResOverlayRembrandt
-else ifeq ($(TARGET_DEVICE), rubens)
-PRODUCT_PACKAGES += \
-    NfcOverlayRubens \
-    SettingsProviderOverlayRubens \
+    WifiResOverlay \
+    WifiResOverlayRembrandt \
     WifiResOverlayRubens
-endif
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
