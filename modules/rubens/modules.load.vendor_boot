@@ -89,6 +89,7 @@ i2c-mt65xx.ko
 rtc-mt6685.ko
 spi-mt65xx.ko
 mt6375.ko
+extdev_io_class.ko
 rt5133-regulator.ko
 rt6160-regulator.ko
 mt6685-core.ko
@@ -150,4 +151,3 @@ mtk-swpm-perf-arm-pmu.ko
 cache-parity.ko
 simtray.ko
 mtk-socinfo.ko
-extdev_io_class.ko

@@ -90,6 +90,7 @@ regulator-vibrator.ko
 i2c-mt65xx.ko
 rtc-mt6685.ko
 spi-mt65xx.ko
+extdev_io_class.ko
 mt6375.ko
 rt5133-regulator.ko
 rt6160-regulator.ko
