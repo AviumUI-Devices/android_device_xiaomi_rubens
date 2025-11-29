@@ -1,4 +1,5 @@
-# Unpinned blobs from rubens-user 14 UP1A.231005.007 OS2.0.3.0.ULNCNXM release-keys
+# All unpinned blobs below are extracted from rubens-user 14 UP1A.231005.007 OS2.0.5.0.ULNCNXM release-keys
+# rembrandt Package version: rembrandt-user 14 UP1A.231005.007 OS2.0.19.0.UMMCNXM release-keys
 
 # Audio
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
@@ -35,7 +36,6 @@ vendor/etc/smartpa_param/tfa98xx_voice.bin
 vendor/etc/audio_param/tfa98xx_music.bin
 vendor/etc/audio_param/tfa98xx_ringtone.bin
 vendor/etc/audio_param/tfa98xx_voice.bin
-
 
 # Batterysecret
 vendor/bin/batterysecret
@@ -177,9 +177,6 @@ vendor/lib64/libcamalgo.WarpMapResizer.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcameraplatforminfoxiaomi.so
 vendor/lib64/libceres.so
-
-vendor/lib64/libjpeg-alpha-oal_vendor.so
-vendor/lib64/libJpgEncPipe.so 
 vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libdeflicker.so
 vendor/lib64/libfeature.hdr10.so
@@ -220,7 +217,6 @@ vendor/lib64/libvidhance_ldc.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvidhance_super_stabilization.so
 vendor/lib64/libvidhance.so
-vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/librgbwlightsensor.so 
 
@@ -232,10 +228,8 @@ vendor/lib64/libwa_rtdof.so
 vendor/lib64/libwa_rtrefocus.so
 vendor/lib64/mt6895/libcamalgo.util1.so:vendor/lib64/libcamalgo.util1.so
 vendor/lib64/mt6895/libcamalgo.util2.so:vendor/lib64/libcamalgo.util2.so
-
 vendor/lib64/mt6895/libgpudataproducer.so:vendor/lib64/libgpudataproducer.so 
 vendor/lib64/mt6895/libacdk.so:vendor/lib64/libacdk.so 
-
 vendor/lib64/mt6895/lib_bsscore.so;SYMLINK=vendor/lib64/lib_bsscore.so
 vendor/lib64/mt6895/lib3a.ae.core.so;SYMLINK=vendor/lib64/lib3a.ae.core.so
 vendor/lib64/mt6895/libmdla_ut.so:vendor/lib64/libmdla_ut.so
@@ -524,6 +518,29 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
+
+# Camera (Configs) - from rembrandt
+vendor/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_mdla30.dla|00202ed1cf63ff03588a24b1525a3542f7d0d556
+
+# Camera (Database) - from rembrandt
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtgc02m1_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtgc02m1_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY|f45a62f3b2eeeb6a48f34c085cfcafc6d1a619a8
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtgc02m1_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtgc02m1_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY|be50e5d9c5bcd847e758bd805bd04b852813830d
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx582_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx582_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY|78cda02a25a82bd97de35b0729ab82f8529b016b
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx582_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx582_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY|41222c267cd1285f2c359d65d48789163a6a210f
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx596_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx596_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY|cb6760be0d7ad68030e36f0861804e63f83ff8a1
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx596_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx596_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY|1e54229dc9cc61a1f01e3fd22e6fa3ac5b017b68
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandts5k4h7_mipi_raw/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandts5k4h7_mipi_raw/ISP_mapping.db;MAKE_COPY_RULE_ONLY|a0459bfc8585bb583bb1017873db73b22bee4420
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandts5k4h7_mipi_raw/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandts5k4h7_mipi_raw/ISP_param.db;MAKE_COPY_RULE_ONLY|0cf10de80b4525ce29862bed121e8d00d43d8eab
+
+# Camera (Sensors) - from rembrandt
+vendor/lib64/mt6895/rembrandtgc02m1_mipi_raw_IdxMgr.so:vendor/lib64/rembrandtgc02m1_mipi_raw_IdxMgr.so|4c137b767f9b83bda3de81f46fc3a2bc09a535ad
+vendor/lib64/mt6895/rembrandtgc02m1_mipi_raw_tuning.so:vendor/lib64/rembrandtgc02m1_mipi_raw_tuning.so|15e949982be477d7a4c1d0bbe4463423fdae2982
+vendor/lib64/mt6895/rembrandtimx582_mipi_raw_IdxMgr.so:vendor/lib64/rembrandtimx582_mipi_raw_IdxMgr.so|f60f43e3704fbdbce13f31e0d771d0fc8ecd4ebc
+vendor/lib64/mt6895/rembrandtimx582_mipi_raw_tuning.so:vendor/lib64/rembrandtimx582_mipi_raw_tuning.so|91bb87b9d038942459c465e6e089ad6701f3a1d3
+vendor/lib64/mt6895/rembrandtimx596_mipi_raw_IdxMgr.so:vendor/lib64/rembrandtimx596_mipi_raw_IdxMgr.so|5d3b7da966ceed014c71cab4584dbc9d90afdf9f
+vendor/lib64/mt6895/rembrandtimx596_mipi_raw_tuning.so:vendor/lib64/rembrandtimx596_mipi_raw_tuning.so|99bd6839b8c46e2f357b71b3e09c29c4f839ca22
+vendor/lib64/mt6895/rembrandts5k4h7_mipi_raw_IdxMgr.so:vendor/lib64/rembrandts5k4h7_mipi_raw_IdxMgr.so|071d857bcaaeabd693db89d3e957614bba55c99c
+vendor/lib64/mt6895/rembrandts5k4h7_mipi_raw_tuning.so:vendor/lib64/rembrandts5k4h7_mipi_raw_tuning.so|fb937f2fed0735350b3640ac802d56fcae2803ae
 
 # Display
 vendor/etc/cust_color.xml
