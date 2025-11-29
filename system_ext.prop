@@ -1,6 +1,0 @@
-# Camera
-ro.product.mod_device=rubens
-
-# Fingerprint
-persist.vendor.sys.fp.udfps.location.X_Y=496,2330
-persist.vendor.sys.fp.udfps.size.width_height=228,228
