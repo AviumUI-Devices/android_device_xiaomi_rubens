@@ -14,16 +14,16 @@ $(call inherit-product, device/xiaomi/rubens/device.mk)
 # Inherit LineageOS product
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_rubens
-PRODUCT_DEVICE := rubens
+PRODUCT_NAME := lineage_rembrandt
+PRODUCT_DEVICE := rembrandt
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 22041211AC
+PRODUCT_MODEL := 22122RK93C
 
-PRODUCT_SYSTEM_NAME := rubens
+PRODUCT_SYSTEM_NAME := rembrandt
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=Redmi/rubens/rubens:14/UP1A.231005.007/OS2.0.5.0.ULNCNXM:user/release-keys \
+    BuildFingerprint=Redmi/rembrandt/rembrandt:14/UP1A.231005.007/OS2.0.18.0.UMMCNXM:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_NAME) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME) \
     SystemDevice=$(PRODUCT_SYSTEM_NAME) \

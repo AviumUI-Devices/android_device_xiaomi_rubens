@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023-2024 The LineageOS Project
+# Copyright (C) 2023-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -29,11 +29,23 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayRubens \
+    FrameworksResOverlay \
+    SettingsProviderOverlay \
+    SettingsResOverlay \
+    SystemUIOverlay \
+    WifiResOverlay
+
+ifeq ($(TARGET_DEVICE), rembrandt)
+PRODUCT_PACKAGES += \
+    NfcOverlayRembrandt \
+    SettingsProviderOverlayRembrandt \
+    WifiResOverlayRembrandt
+else ifeq ($(TARGET_DEVICE), rubens)
+PRODUCT_PACKAGES += \
+    NfcOverlayRubens \
     SettingsProviderOverlayRubens \
-    SettingsResOverlayRubens \
-    SystemUIOverlayRubens \
     WifiResOverlayRubens
+endif
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
