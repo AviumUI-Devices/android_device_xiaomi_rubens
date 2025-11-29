@@ -19,5 +19,5 @@
 <resources>
 
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
-    <string translatable="false" name="def_device_name_simple">Redmi K50</string>
+    <string translatable="false" name="def_device_name_simple">Redmi K60E</string>
 </resources>

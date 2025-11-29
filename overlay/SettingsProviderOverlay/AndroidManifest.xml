@@ -4,9 +4,8 @@
 
      SPDX-License-Identifier: Apache-2.0
 -->
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.providers.settings.overlay.rubens">
+    package="com.android.settingsprovider.overlay.rembrandt_rubens">
 
   <application android:hasCode="false"/>
   <overlay android:targetPackage="com.android.providers.settings"

@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SystemUIOverlayRubens",
+    name: "SettingsProviderOverlay",
     sdk_version: "current",
     resource_dirs: ["res"],
     device_specific: true,
