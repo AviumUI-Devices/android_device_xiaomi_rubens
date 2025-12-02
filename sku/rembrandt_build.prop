@@ -1,0 +1,5 @@
+# Bluetooth
+bluetooth.device.default_name=Redmi K60E
+
+# USB
+vendor.usb.product_string=Redmi K60E
