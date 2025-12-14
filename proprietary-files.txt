@@ -545,7 +545,8 @@ vendor/lib64/mt6895/rembrandts5k4h7_mipi_raw_tuning.so:vendor/lib64/rembrandts5k
 # Display
 vendor/etc/cust_color.xml
 vendor/etc/cust_silky_brightness.xml
-vendor/etc/dsi_l11a_38_0a_0a_dsc_cmd_mi.xml
+vendor/etc/dsi_l11a_38_0a_0a_dsc_cmd_mi.xml;SYMLINK=vendor/etc/dsi_m11r_38_0a_0a_dsc_cmd_mi.xml
+vendor/etc/init/rubens_display.rc;SYMLINK=vendor/etc/init/rembrandt_display.rc
 
 # DRM
 vendor/lib64/mediadrm/libwvdrmengine.so
