@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bbb153d_dbb7e1fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2026-02-16T17:54:37Z",
+      "side": 1,
+      "message": "Missing author and change id is wrong\n\nCorrect author is Michael Bestas \u003cmkbestas@lineageos.org\u003e\nCorrect change id is Icc67da5f754b0bb30dce6192b1e520fdf1349ac5",
+      "revId": "6f5e622906c96fd9b48364db982a0704b8308029",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
