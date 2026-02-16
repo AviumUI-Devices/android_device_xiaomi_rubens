@@ -62,6 +62,13 @@ PRODUCT_COPY_FILES += \
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# Updater config
+ifeq ($(GMS_STATUS),true)
+PRODUCT_PACKAGES += \
+    AviumUpdaterOverlayGMSRubens \
+    AviumUpdaterOverlayGMSRembrandt
+endif
+
 # Inherit from mt6895-common
 $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 

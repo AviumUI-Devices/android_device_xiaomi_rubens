@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2023 The LineageOS Project
+
+  SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.avium.overlay.updater">
+
+    <application android:hasCode="false" />
+    <overlay
+      android:targetPackage="org.avium.updater"
+      android:isStatic="true"
+      android:priority="350"
+      android:requiredSystemPropertyName="ro.boot.product.hardware.sku"
+      android:requiredSystemPropertyValue="rubens"/>
+</manifest>
