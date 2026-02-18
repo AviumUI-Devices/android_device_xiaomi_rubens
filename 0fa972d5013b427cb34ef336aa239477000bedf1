@@ -16,6 +16,23 @@
       "message": "Add author to binbin323",
       "revId": "0fa972d5013b427cb34ef336aa239477000bedf1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70867156_cb6cef42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-02-18T08:01:38Z",
+      "side": 1,
+      "message": "No longer needed",
+      "revId": "0fa972d5013b427cb34ef336aa239477000bedf1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
