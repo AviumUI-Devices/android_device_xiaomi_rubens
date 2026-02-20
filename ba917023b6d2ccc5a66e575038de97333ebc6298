@@ -33,6 +33,23 @@
       "message": "We shall translate it in packages/resources/devicesettings.",
       "revId": "ba917023b6d2ccc5a66e575038de97333ebc6298",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac8846ab_5eb637ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2026-02-20T09:39:28Z",
+      "side": 1,
+      "message": "Do this in packages/resources/devicesettings.",
+      "revId": "ba917023b6d2ccc5a66e575038de97333ebc6298",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
