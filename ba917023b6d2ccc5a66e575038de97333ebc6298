@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0914b099_6d0d58cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2026-02-20T06:30:44Z",
+      "side": 1,
+      "message": "Comment removed by: KafuuChino-; Reason:  ",
+      "revId": "ba917023b6d2ccc5a66e575038de97333ebc6298",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
