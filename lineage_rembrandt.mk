@@ -29,10 +29,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemDevice=$(PRODUCT_SYSTEM_NAME) \
     SystemName=$(PRODUCT_SYSTEM_NAME)
 
-# AviumUI configs
-AVIUM_MAINTAINER := 莫名其妙2333 & InvalidName
-AVIUM_SETTINGS_SOC_MODEL_NAME := Mediatek Dimensity 8200
-AVIUM_SETTINGS_DEVICE_CODENAME := Redmi K60E
-AVIUM_IS_OFFICIAL := true
-WITH_GMS := true
-AVIUM_FORCE_SET_FAKE_PROP := true
+# Inherit AviumUI configs.
+include device/xiaomi/rubens/avium_common.mk
